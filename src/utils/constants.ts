@@ -73,129 +73,105 @@ export const cvPath = "/assets/Abdul Muktadir Miah - CV.pdf";
 
 export const about: About = {
   description:
-    "I am a driven Software Engineer with a strong passion for creating captivating applications. My dedication lies in crafting innovative and engaging software solutions. Constantly seeking opportunities to expand my knowledge and expertise in the ever-evolving field, I am fuelled by a deep curiosity for the latest technologies and their potential applications.",
+    "As a passionate software engineer, I thrive on the thrill of solving complex problems and continuously expanding my technical knowledge. My enthusiasm for technology is matched only by my eagerness to learn and innovate, ensuring I stay at the forefront of software development trends and techniques.",
   interests: [
     {
-      title: "Gym",
+      title: "Basketball",
       icon: IconBarbell,
       description:
-        "The gym is my second home 🏠, where iron meets determination and sweat transforms into strength 💪. I find solace in the rhythmic clank of weights 🏋️‍♂️, the adrenaline of a challenging workout 🏃‍♂️, and the pursuit of personal records 📈. It's more than just exercise; it's a lifestyle.",
+        "Basketball is not just a sport for me; it's a passion. I love the excitement of playing, feeling the rush of adrenaline as I make a play. Off the court, I'm an avid fan of the Golden State Warriors, following their games with keen interest and admiration for their skill and team dynamics.",
     },
     {
-      title: "Tech",
+      title: "Snowboarding",
       icon: IconCpu,
       description:
-        "My passion lies in the ever-evolving world of technology 🌐. From the latest gadgets and cutting-edge innovations 📱 to coding and digital trends 💻, I thrive on staying at the forefront of what's happening in the tech universe 🚀.",
+        "Snowboarding offers me an exhilarating escape to the mountains, where I can challenge myself against nature's splendid backdrop. The thrill of gliding down snowy slopes combines my love for adventure and the great outdoors, making every trip a memorable experience.",
     },
     {
       title: "Travel",
       icon: IconPlaneTilt,
       description:
-        "Eager to explore the world 🌍, I'm captivated by the endless possibilities of travel ✈️. My heart belongs to the thrill of discovering new destinations 🗺️ and immersing myself in diverse cultures.",
+        "Traveling is my window to the world's cultures, cuisines, and landscapes, with Hungary holding a special place in my heart. Its rich history, stunning architecture, and vibrant culture never fail to amaze me, making it my favorite travel destination.",
     },
     {
-      title: "Cars",
+      title: "Motorcycles",
       icon: IconCar,
       description:
-        "Whether it's classic masterpieces or the latest in high-speed marvels, I'm continually impressed by the craftsmanship and innovation within the realm of automobiles 🏎️. My fascination knows no bounds as I delve into the design, innovation, and engineering of these four-wheeled machines 🛠️. And let's not forget the exhilaration that comes from harnessing the raw horsepower that powers them 🚀!",
+        "There's a unique sense of freedom and excitement that comes with riding motorcycles. The roar of the engine, the rush of the wind, and the seamless blend of speed and control provide an exhilarating experience that I find endlessly thrilling.",
     },
     {
-      title: "Sport",
+      title: "Reading",
       icon: IconPlayFootball,
       description:
-        "From the adrenaline rush of the game to the dedication and teamwork it entails, I'm all in 🙌. The electrifying realm of sports has a unique way of bringing people together and pushing the limits of human potential 🌟. The joy of victory (or even the lessons in defeat) keep me motivated 🏆.",
+        "Reading is a doorway to countless worlds for me, with Ender's Game by Orson Scott Card being my all-time favorite. I am captivated by its blend of science fiction and deep strategic thinking, reflecting my love for stories that challenge the mind and imagination.",
     },
     {
-      title: "Games",
+      title: "Developing Video Games",
       icon: IconDeviceGamepad,
       description:
-        "In the captivating realm of video games 🎮, I thrive on the thrill of competition 🏆. Whether it's epic quests or strategic battles, I relish the opportunity to test my skills and outwit opponents in every game I play 🧠. These digital adventures not only ignite my imagination but also fuel my competitive spirit 🔥!",
+        "Creating video games is where my creative and technical skills converge. From conceptualizing game mechanics to coding and designing, every step in the process fuels my passion for interactive storytelling and immersive experiences.",
     },
   ],
 };
 
 export const experiences: Experience[] = [
   {
-    title: "Software Developer",
-    employmentType: "Full-time",
-    companyName: "Creditsafe",
-    companyLink: "https://www.creditsafe.com/",
-    location: "Caerphilly, Wales",
+    title: "Software Develope Internr",
+    employmentType: "",
+    companyName: "Certinia",
+    companyLink: "https://certinia.com",
+    location: "Harrogate, UK",
     logo: creditsafe,
     iconBg: "#EE2A1F",
-    date: "May 2023 - Present",
+    date: "June 2022 - September 2022",
     summary: [
-      "Full-stack development: Contributed to both React.js frontend development and ASP.NET backend API development.",
-      "Data Management Tools: Delivered valuable features and improvements to internal tools, facilitating the data team's efficient management of customer data.",
-      "Agile Collaboration: Actively participated in discussions during '3 Amigos' sessions to analyse, estimate workload, and determine story points for upcoming tasks.",
-      "Product Alignment: Engaged closely with the product manager to align technical solutions with business objectives, ensuring goal-aligned solutions.",
+      "Implemented an automated Salesforce portfolio limit detection system using Git Hooks, Bash, and Python, improving workflow automation significantly",
+      "Designed a Visual Studio Code Extension with TypeScript, Python, Go, and REST API to automate Salesforce data collection and enforce code standards, preventing limit overages and code errors"
     ],
     skills: [
       {
-        title: "React.js",
+        title: "Golang",
         icon: IconBrandReact,
       },
       {
-        title: "JavaScript",
+        title: "TypeScript",
         icon: IconBrandJavascript,
       },
       {
-        title: "C# ASP .Net",
-        icon: IconBrandCSharp,
-      },
-      {
-        title: "Oracle DB",
+        title: "Bash",
         icon: IconDatabase,
       },
       {
         title: "Python",
         icon: IconBrandPython,
       },
-      {
-        title: "AWS Lambda",
-        icon: IconBrandAws,
-      },
     ],
   },
   {
-    title: "Software Engineer",
-    employmentType: "Internship",
-    companyName: "FinancialForce",
-    companyLink: "https://certinia.com/",
-    location: "Harrogate, England",
+    title: "Salesforce Development Intern",
+    employmentType: "",
+    companyName: "Full Potential Solutions",
+    companyLink: "https://www.fpsinc.com",
+    location: "Kansas City, MO",
     logo: financialforce,
     iconBg: "#fff",
-    date: "Jun 2022 - Aug 2022",
+    date: "May 2021 - Sep 2021",
     summary: [
-      "DevOps Collaboration: Worked closely with DevOps to maintain organisational infrastructure, contributing to enhanced software operations.",
-      "Automated Jira Workflow: Developed a script automating the creation of Jira user stories from security alerts, streamlining issue management.",
-      "Versatile Team Player: Successfully collaborated across various feature crews, engaging in pair programming and driving feature implementation.",
-      "Quality Advocate: Played a key role in code reviews, testing, and agile ceremonies, emphasising a commitment to delivering top-quality software solutions.",
+      "Wrote APEX test classes with integrated SOQL in order to maintain optimal code coverage between Salesforce updates",
+      "Collaborated in developing and managing workflow rules, processes, and APEX triggers, significantly speeding up customer query response times and improving data availability on their dashboards"
     ],
     skills: [
       {
-        title: "TypeScript",
+        title: "Salesforce",
         icon: IconBrandTypescript,
       },
       {
-        title: "JavaScript",
+        title: "Java / APEX",
         icon: IconBrandJavascript,
       },
       {
-        title: "Node.js",
+        title: "SQL / SOQL",
         icon: IconBrandNodejs,
-      },
-      {
-        title: "Terraform",
-        icon: IconBrandTerraform,
-      },
-      {
-        title: "Docker",
-        icon: IconBrandDocker,
-      },
-      {
-        title: "Jenkins",
-        icon: IconGitPullRequest,
       },
     ],
   },
