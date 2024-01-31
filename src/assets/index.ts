@@ -1,5 +1,10 @@
-import creditsafe from "./company_logos/creditsafe.png";
+
 import financialforce from "./company_logos/financialforce.png";
+import fps from "./company_logos/fps.jpeg";
+import gooff from "./company_logos/gooff.jpeg";
+import gridsme from "./company_logos/gridsme.png";
+import ooma from "./company_logos/ooma.png";
+
 import { instock, instockDemo } from "./project_screenshots/instock";
 import {
   wrackreport,
@@ -11,8 +16,11 @@ import { hafod, hafodDemo } from "./project_screenshots/hafod";
 import wave from "./loading/wave.png";
 
 export {
-  creditsafe,
   financialforce,
+  fps,
+  gooff,
+  gridsme,
+  ooma,
   instock,
   wrackreport,
   prayerpal,

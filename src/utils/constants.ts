@@ -1,6 +1,9 @@
 import {
-  creditsafe,
   financialforce,
+  fps,
+  gooff,
+  gridsme,
+  ooma,
   instock,
   instockDemo,
   wrackreport,
@@ -13,23 +16,15 @@ import {
   hafodDemo,
 } from "../assets";
 import {
-  IconBarbell,
-  IconCpu,
   IconPlaneTilt,
-  IconCar,
-  IconPlayFootball,
   IconDeviceGamepad,
   IconBrandReact,
   IconBrandJavascript,
   IconBrandCSharp,
-  IconDatabase,
   IconBrandPython,
   IconBrandAws,
   IconBrandTypescript,
   IconBrandNodejs,
-  IconBrandTerraform,
-  IconBrandDocker,
-  IconGitPullRequest,
   IconBrandFlutter,
   IconBrandMysql,
   IconCoffee,
@@ -37,6 +32,19 @@ import {
   IconBrandHtml5,
   IconBrandCss3,
   IconBrandFigma,
+  IconBrandGolang,
+  IconHash,
+  IconApi,
+  IconCloudCode,
+  IconSql,
+  IconBrandMongodb,
+  IconTestPipe,
+  IconPhone,
+  IconBallBasketball,
+  IconMotorbike,
+  IconBook,
+  IconSnowflake
+
 } from "@tabler/icons-react";
 import { Project, NavLink, About, Experience, ProjectType } from "./types";
 
@@ -65,8 +73,8 @@ export const navLinks: NavLink[] = [
 ];
 
 export const socialLinks = {
-  linkedin: "https://www.linkedin.com/in/abdul-m-miah/",
-  github: "https://github.com/AbdulMiah",
+  linkedin: "https://www.linkedin.com/in/sabeernarula/",
+  github: "https://github.com/sabeer-narula",
 };
 
 export const cvPath = "/assets/Abdul Muktadir Miah - CV.pdf";
@@ -77,13 +85,13 @@ export const about: About = {
   interests: [
     {
       title: "Basketball",
-      icon: IconBarbell,
+      icon: IconBallBasketball,
       description:
         "Basketball is not just a sport for me; it's a passion. I love the excitement of playing, feeling the rush of adrenaline as I make a play. Off the court, I'm an avid fan of the Golden State Warriors, following their games with keen interest and admiration for their skill and team dynamics.",
     },
     {
       title: "Snowboarding",
-      icon: IconCpu,
+      icon: IconSnowflake,
       description:
         "Snowboarding offers me an exhilarating escape to the mountains, where I can challenge myself against nature's splendid backdrop. The thrill of gliding down snowy slopes combines my love for adventure and the great outdoors, making every trip a memorable experience.",
     },
@@ -95,13 +103,13 @@ export const about: About = {
     },
     {
       title: "Motorcycles",
-      icon: IconCar,
+      icon: IconMotorbike,
       description:
         "There's a unique sense of freedom and excitement that comes with riding motorcycles. The roar of the engine, the rush of the wind, and the seamless blend of speed and control provide an exhilarating experience that I find endlessly thrilling.",
     },
     {
       title: "Reading",
-      icon: IconPlayFootball,
+      icon: IconBook,
       description:
         "Reading is a doorway to countless worlds for me, with Ender's Game by Orson Scott Card being my all-time favorite. I am captivated by its blend of science fiction and deep strategic thinking, reflecting my love for stories that challenge the mind and imagination.",
     },
@@ -116,12 +124,12 @@ export const about: About = {
 
 export const experiences: Experience[] = [
   {
-    title: "Software Develope Internr",
-    employmentType: "",
+    title: "Software Engineer Intern",
+    employmentType: "Internship",
     companyName: "Certinia",
     companyLink: "https://certinia.com",
     location: "Harrogate, UK",
-    logo: creditsafe,
+    logo: financialforce,  // Update with actual Certinia logo
     iconBg: "#EE2A1F",
     date: "June 2022 - September 2022",
     summary: [
@@ -129,53 +137,98 @@ export const experiences: Experience[] = [
       "Designed a Visual Studio Code Extension with TypeScript, Python, Go, and REST API to automate Salesforce data collection and enforce code standards, preventing limit overages and code errors"
     ],
     skills: [
-      {
-        title: "Golang",
-        icon: IconBrandReact,
-      },
-      {
-        title: "TypeScript",
-        icon: IconBrandJavascript,
-      },
-      {
-        title: "Bash",
-        icon: IconDatabase,
-      },
-      {
-        title: "Python",
-        icon: IconBrandPython,
-      },
+      { title: "Golang", icon: IconBrandGolang },
+      { title: "TypeScript", icon: IconBrandTypescript },
+      { title: "Bash", icon: IconHash },
+      { title: "Python", icon: IconBrandPython },
+      { title: "RestAPI", icon: IconApi },
+      { title: "Salesforce", icon: IconCloudCode },
     ],
   },
   {
     title: "Salesforce Development Intern",
-    employmentType: "",
+    employmentType: "Internship",
     companyName: "Full Potential Solutions",
     companyLink: "https://www.fpsinc.com",
     location: "Kansas City, MO",
-    logo: financialforce,
+    logo: fps,  // Update with actual FPS logo
     iconBg: "#fff",
-    date: "May 2021 - Sep 2021",
+    date: "May 2021 - September 2021",
     summary: [
       "Wrote APEX test classes with integrated SOQL in order to maintain optimal code coverage between Salesforce updates",
       "Collaborated in developing and managing workflow rules, processes, and APEX triggers, significantly speeding up customer query response times and improving data availability on their dashboards"
     ],
     skills: [
-      {
-        title: "Salesforce",
-        icon: IconBrandTypescript,
-      },
-      {
-        title: "Java / APEX",
-        icon: IconBrandJavascript,
-      },
-      {
-        title: "SQL / SOQL",
-        icon: IconBrandNodejs,
-      },
+      { title: "Salesforce", icon: IconCloudCode },
+      { title: "Java / APEX", icon: IconCoffee },
+      { title: "SQL", icon: IconSql },
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    employmentType: "Internship",
+    companyName: "GridSME",
+    companyLink: "https://www.gridsme.com",  // Update with actual link
+    location: "Folsom, CA",
+    logo: gridsme,  // Update with actual GridSME logo
+    iconBg: "#EE2A1F",
+    date: "July 2020 - December 2020",
+    summary: [
+      "Enhanced customer experience by developing a dashboard that dynamically displays weather and electricity sensor data, utilizing server-side Python API calls for real-time data processing and visualization",
+      "Developed and sped up website’s customer portal using JavaScript and JQuery, decreasing time spent waiting by ~17%"
+    ],
+    skills: [
+      { title: "Python", icon: IconBrandPython },
+      { title: "JavaScript", icon: IconBrandJavascript },
+      { title: "JQuery", icon: IconBrandJavascript },
+      { title: "RestAPI", icon: IconApi },
+      // Add more skills as needed
+    ],
+  },
+  {
+    title: "Co-Founder / Chief Technology Officer",
+    employmentType: "Full-time",
+    companyName: "Go Off!",
+    companyLink: "https://www.gooff.com",  // Update with actual link
+    location: "Boston, MA",
+    logo: gooff,  // Update with actual Go Off! logo
+    iconBg: "#EE2A1F",
+    date: "January 2020 - February 2021",
+    summary: [
+      "Played a pivotal role in major company decisions, impacting company direction, financial strategies, and hiring, as well as leading tech discussions and driving technology initiatives",
+      "Secured over $10,000 in funding by entering various startup competitions and pitching to potential company investors",
+      "Led a tech team of four devs in order to develop our website, chrome extension, and chat room service using JavaScript, and Python. We supplemented our site with MongoDB, MySQL, and AWS to manage data and launch our site which had over 600 registered users"
+    ],
+    skills: [
+      { title: "JavaScript", icon: IconBrandJavascript },
+      { title: "Python", icon: IconBrandPython },
+      { title: "Node.JS", icon: IconBrandNodejs },
+      { title: "SQL", icon: IconSql },
+      { title: "AWS", icon: IconBrandAws },
+      { title: "MongoDB", icon: IconBrandMongodb },
+    ],
+  },
+  {
+    title: "Quality Assurance Engineer Intern",
+    employmentType: "Internship",
+    companyName: "Ooma",
+    companyLink: "https://www.ooma.com",  // Update with actual link
+    location: "Sunnyvale, CA",
+    logo: ooma,  // Update with actual Ooma logo
+    iconBg: "#EE2A1F",
+    date: "June 2019 - December 2019",
+    summary: [
+      "Automated log-collecting and client-side server testing interface in Python, achieving an over 80% reduction in log retrieval and testing operational time",
+      "Tested pre-release iOS and Android builds of enterprise and consumer applications. Discovered, tested, logged, and reported over 70 bugs in the beta build"
+    ],
+    skills: [
+      { title: "Python", icon: IconBrandPython },
+      { title: "Selenium", icon: IconTestPipe },
+      { title: "VoIP / SIPp", icon: IconPhone },
     ],
   },
 ];
+
 
 export const projects: Project[] = [
   {
