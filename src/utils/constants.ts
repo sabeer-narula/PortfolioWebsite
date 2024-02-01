@@ -1,5 +1,5 @@
 import {
-  financialforce,
+  certinia,
   fps,
   gooff,
   gridsme,
@@ -17,21 +17,21 @@ import {
 } from "../assets";
 import {
   IconPlaneTilt,
+  IconCircleLetterC,
   IconDeviceGamepad,
-  IconBrandReact,
+  IconBrandGithub,
+  IconBrandFigma,
   IconBrandJavascript,
-  IconBrandCSharp,
   IconBrandPython,
   IconBrandAws,
   IconBrandTypescript,
   IconBrandNodejs,
-  IconBrandFlutter,
-  IconBrandMysql,
+  IconBrandCpp,
   IconCoffee,
-  IconFileTypeXml,
-  IconBrandHtml5,
-  IconBrandCss3,
-  IconBrandFigma,
+  IconFlask,
+  IconBrandSpotify,
+  IconBrandBlender,
+  IconLetterR,
   IconBrandGolang,
   IconHash,
   IconApi,
@@ -43,7 +43,11 @@ import {
   IconBallBasketball,
   IconMotorbike,
   IconBook,
-  IconSnowflake
+  IconSnowboarding,
+  IconDeviceAnalytics,
+  IconInputAi,
+  IconBrandVisualStudio,
+
 
 } from "@tabler/icons-react";
 import { Project, NavLink, About, Experience, ProjectType } from "./types";
@@ -77,7 +81,8 @@ export const socialLinks = {
   github: "https://github.com/sabeer-narula",
 };
 
-export const cvPath = "/assets/Abdul Muktadir Miah - CV.pdf";
+export const cvPath = "/assets/Sabeer_Narula_Resume.pdf";
+
 
 export const about: About = {
   description:
@@ -91,7 +96,7 @@ export const about: About = {
     },
     {
       title: "Snowboarding",
-      icon: IconSnowflake,
+      icon: IconSnowboarding,
       description:
         "Snowboarding offers me an exhilarating escape to the mountains, where I can challenge myself against nature's splendid backdrop. The thrill of gliding down snowy slopes combines my love for adventure and the great outdoors, making every trip a memorable experience.",
     },
@@ -129,7 +134,7 @@ export const experiences: Experience[] = [
     companyName: "Certinia",
     companyLink: "https://certinia.com",
     location: "Harrogate, UK",
-    logo: financialforce,  // Update with actual Certinia logo
+    logo: certinia,
     iconBg: "#EE2A1F",
     date: "June 2022 - September 2022",
     summary: [
@@ -143,6 +148,7 @@ export const experiences: Experience[] = [
       { title: "Python", icon: IconBrandPython },
       { title: "RestAPI", icon: IconApi },
       { title: "Salesforce", icon: IconCloudCode },
+      { title: "VS Code", icon: IconBrandVisualStudio },
     ],
   },
   {
@@ -224,7 +230,7 @@ export const experiences: Experience[] = [
     skills: [
       { title: "Python", icon: IconBrandPython },
       { title: "Selenium", icon: IconTestPipe },
-      { title: "VoIP / SIPp", icon: IconPhone },
+      { title: "VoIP / SIPp testing", icon: IconPhone },
     ],
   },
 ];
@@ -234,7 +240,7 @@ export const projects: Project[] = [
   {
     id: 1,
     projectType: ProjectType.MOBILE_APP,
-    title: "InStock App",
+    title: "Spam Detection Bot",
     summary: [
       "Streamlines inventory management for small independent sellers.",
       "User-friendly mobile application.",
@@ -249,20 +255,20 @@ export const projects: Project[] = [
       "This project aims to streamline inventory management for small independent sellers by offering a user-friendly mobile application. The app features a modern and intuitive design, facilitating efficient stock level management across various selling platforms like Etsy, Shopify, and Faire. It serves as a centralised hub that seamlessly integrates with popular selling platforms, ensuring a unified and accurate representation of stock levels. Through strategic integrations, the application notifies users of low stock levels and stockouts, providing a reliable single source of truth for inventory management.",
     skills: [
       {
-        title: "Flutter",
-        icon: IconBrandFlutter,
+        title: "Python",
+        icon: IconBrandPython,
       },
       {
-        title: "C# ASP .Net",
-        icon: IconBrandCSharp,
+        title: "Flask",
+        icon: IconFlask,
       },
       {
-        title: "AWS",
-        icon: IconBrandAws,
+        title: "Machine Learning",
+        icon: IconInputAi,
       },
       {
-        title: "Figma",
-        icon: IconBrandFigma,
+        title: "Statistical Analysis",
+        icon: IconDeviceAnalytics,
       },
     ],
     link: "https://github.com/AbdulMiah/InStock",
@@ -275,7 +281,7 @@ export const projects: Project[] = [
   {
     id: 2,
     projectType: ProjectType.WEB_APP,
-    title: "WrackReport",
+    title: "Data Analytics Research: Impact on Weather on Baseball Pitches",
     summary: [
       "Comprehensive platform for flood incident management.",
       "Empowers residents and local councils.",
@@ -289,24 +295,24 @@ export const projects: Project[] = [
       "A comprehensive platform designed to empower residents and local councils in addressing flood incidents swiftly and effectively. This user-friendly website facilitates seamless reporting and tracking of flood-related incidents, offering key features such as interactive map functionalities. Residents can effortlessly click on the map to pinpoint incident locations and submit detailed reports, including crucial information like flood type, descriptions, images/videos, contact details, and timestamps. The local council benefit from secure login capabilities, gaining access to a convenient table of report overviews for efficient navigation and focused investigation.",
     skills: [
       {
-        title: "Java",
-        icon: IconCoffee,
+        title: "R",
+        icon: IconLetterR,
       },
       {
-        title: "HTML",
-        icon: IconBrandHtml5,
+        title: "Python",
+        icon: IconBrandPython,
       },
       {
-        title: "CSS",
-        icon: IconBrandCss3,
+        title: "Statistical Analysis",
+        icon: IconDeviceAnalytics,
       },
       {
-        title: "JavaScript",
-        icon: IconBrandJavascript,
+        title: "Rest API",
+        icon: IconApi,
       },
       {
-        title: "MySQL",
-        icon: IconBrandMysql,
+        title: "SQL",
+        icon: IconSql,
       },
     ],
     link: "https://github.com/AbdulMiah/WrackReport",
@@ -319,7 +325,7 @@ export const projects: Project[] = [
   {
     id: 3,
     projectType: ProjectType.MOBILE_APP,
-    title: "PrayerPal App",
+    title: "Spotify Popular Music Analytics",
     summary: [
       "Islamic prayer application for Muslims.",
       "Digital prayer schedule for accessibility and convenience.",
@@ -333,12 +339,16 @@ export const projects: Project[] = [
       "Recognising the significance of prayer as one of the fundamental pillars of Islam, this is a practical Islamic prayer application for Muslims. The objective is to provide a more accessible and convenient option with a digitally displayed prayer schedule, allowing users to track their prayers from anywhere. The application incorporates various features, including a map functionality for searching prayer times globally, a compass to determine the prayer direction, a tracker enabling users to mark completed prayers throughout the day, a page offering a list of supplications (Duas) for users to enhance their prayers, and a notification system to alert users when it is time for the next prayer.",
     skills: [
       {
-        title: "Java",
+        title: "Python",
         icon: IconCoffee,
       },
       {
-        title: "XML",
-        icon: IconFileTypeXml,
+        title: "Statistical Analytics",
+        icon: IconDeviceAnalytics,
+      },
+      {
+        title: "Spotify API",
+        icon: IconBrandSpotify,
       },
     ],
     link: "https://github.com/AbdulMiah/PrayerPal",
@@ -351,7 +361,7 @@ export const projects: Project[] = [
   {
     id: 4,
     projectType: ProjectType.WEB_APP,
-    title: "E2S System",
+    title: "Treasurer and teacher for Girls Who Code",
     summary: [
       "Data visualisation tool for Facility Energy Managers to help monitor energy performance.",
       "Automated email updates for energy asset performance.",
@@ -367,20 +377,20 @@ export const projects: Project[] = [
       "This project addresses the identified problem of energy site managers, specifically facility energy managers, lacking essential data and tools for making informed decisions on energy cost savings and emission reduction. Key features include automated email updates on energy asset performance, a visual energy flow diagram for intuitive insights, data consolidation for streamlined analysis, and accurate energy cost and consumption forecasting. Users can easily adjust granularity on charts, access historical reports, and switch between sites. Admin functionalities encompass importing energy data, user management, site management, and organisation management.",
     skills: [
       {
-        title: "React.js",
-        icon: IconBrandReact,
+        title: "Python",
+        icon: IconBrandPython,
       },
       {
-        title: "TypeScript",
-        icon: IconBrandTypescript,
+        title: "Figma",
+        icon: IconBrandFigma,
       },
       {
-        title: "Node.js",
-        icon: IconBrandNodejs,
+        title: "AWS",
+        icon: IconBrandAws,
       },
       {
-        title: "MySQL",
-        icon: IconBrandMysql,
+        title: "Github",
+        icon: IconBrandGithub,
       },
     ],
     link: "https://github.com/AbdulMiah/E2S-System",
@@ -393,7 +403,7 @@ export const projects: Project[] = [
   {
     id: 5,
     projectType: ProjectType.WEB_APP,
-    title: "Hafod Data",
+    title: "Zombie First Person Shooter Game",
     summary: [
       "Software solution for a non-profit organisation focusing on affordable homes and support services.",
       "Features a map displaying Hafod's properties across Wales.",
@@ -407,24 +417,44 @@ export const projects: Project[] = [
       "This software is a tailored solution for a non-profit organisation committed to providing affordable homes and comprehensive support services. The platform features an interactive map showcasing Hafod's properties across Wales, alongside a dynamic heatmap offering real-time insights into COVID-19 cases in proximity to both Wales and Hafod properties. Through clear and informative bar graphs, the software presents the vaccination and infection status of residents, while a pie graph highlights popular vaccines among carers and tenants. Accessible to both carers and administrators, the user-friendly interface ensures real-time updates, with administrators having additional capabilities to manage tenant and carer information efficiently through intuitive tables.",
     skills: [
       {
-        title: "Python",
-        icon: IconBrandPython,
+        title: "Unreal Engine",
+        icon: IconDeviceGamepad,
       },
       {
-        title: "HTML",
-        icon: IconBrandHtml5,
+        title: "C++",
+        icon: IconBrandCpp,
       },
       {
-        title: "CSS",
-        icon: IconBrandCss3,
+        title: "Blender",
+        icon: IconBrandBlender,
       },
+    ],
+    link: "https://github.com/AbdulMiah/Hafod-Data",
+    hero: "",
+    images: hafod,
+    demo: hafodDemo,
+    delay: 1.4,
+    color: "gold",
+  },
+  {
+    id: 6,
+    projectType: ProjectType.WEB_APP,
+    title: "Multi-threaded image processing server",
+    summary: [
+      "Software solution for a non-profit organisation focusing on affordable homes and support services.",
+      "Features a map displaying Hafod's properties across Wales.",
+      "Includes a heatmap for real-time COVID-19 cases near Wales and Hafod properties.",
+      "Utilises bar graphs to show vaccination and infection status of residents.",
+      "Incorporates a pie chart indicating popular vaccines among carers and tenants.",
+      "Accessible to both carers and administrators for real-time updates.",
+      "Admins can view and manage tenant and carer information through tables.",
+    ],
+    description:
+      "This software is a tailored solution for a non-profit organisation committed to providing affordable homes and comprehensive support services. The platform features an interactive map showcasing Hafod's properties across Wales, alongside a dynamic heatmap offering real-time insights into COVID-19 cases in proximity to both Wales and Hafod properties. Through clear and informative bar graphs, the software presents the vaccination and infection status of residents, while a pie graph highlights popular vaccines among carers and tenants. Accessible to both carers and administrators, the user-friendly interface ensures real-time updates, with administrators having additional capabilities to manage tenant and carer information efficiently through intuitive tables.",
+    skills: [
       {
-        title: "JavaScript",
-        icon: IconBrandJavascript,
-      },
-      {
-        title: "MySQL",
-        icon: IconBrandMysql,
+        title: "C",
+        icon: IconCircleLetterC,
       },
     ],
     link: "https://github.com/AbdulMiah/Hafod-Data",

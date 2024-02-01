@@ -1,5 +1,5 @@
 
-import financialforce from "./company_logos/financialforce.png";
+import certinia from "./company_logos/certinia.png";
 import fps from "./company_logos/fps.jpeg";
 import gooff from "./company_logos/gooff.jpeg";
 import gridsme from "./company_logos/gridsme.png";
@@ -16,7 +16,7 @@ import { hafod, hafodDemo } from "./project_screenshots/hafod";
 import wave from "./loading/wave.png";
 
 export {
-  financialforce,
+  certinia,
   fps,
   gooff,
   gridsme,
