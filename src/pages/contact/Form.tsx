@@ -118,10 +118,11 @@ function Form({ isDarkMode, isMobile }: FormProp) {
     if (handleValidation()) {
       emailjs
         .sendForm(
-          "service_dggxdwd",
-          "template_j5fdmsn",
+          "service_papclij",
+          "template_t160e6c",
           e.target as HTMLFormElement,
-          "1WMou0YgjyHfq-I6j"
+          "6rNVOR5odZXnX1XrC"
+          
         )
         .then(() => setIsEmailSent(true));
     }
