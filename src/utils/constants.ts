@@ -267,7 +267,7 @@ export const projects: Project[] = [
         icon: IconDeviceAnalytics,
       },
     ],
-    link: "https://github.com/AbdulMiah/InStock",
+    link: "https://github.com/sabeer-narula/NLP-Spam-Detection/",
     hero: "",
     images: instock,
     demo: instockDemo,
@@ -378,7 +378,7 @@ export const projects: Project[] = [
         icon: IconBrandGithub,
       },
     ],
-    link: "https://github.com/AbdulMiah/E2S-System",
+    link: "https://github.com/sabeer-narula/GirlsWhoCode/",
     hero: "",
     images: e2s,
     demo: e2sDemo,
@@ -452,10 +452,8 @@ export const footerText = `Copyright © 2024 - ${new Date().getFullYear()} | All
 
 
 /* TODO:
-update contact form
 update github links
 update images
-remove changelog
 remove 3d models - replace
 fix safari version
 format introduction text
