@@ -30,7 +30,7 @@ function Contact({ isDarkMode, isMobile }: ContactProp) {
         </motion.div>
 
         <motion.p variants={slideDown(0.4)} className="font-bold">
-          Questions, bug reports, feedback - I'm here for it all.
+          Questions, bug reports, job opportunities, feedback - I'm here for it all.
         </motion.p>
 
         <Form isDarkMode={isDarkMode} isMobile={isMobile} />

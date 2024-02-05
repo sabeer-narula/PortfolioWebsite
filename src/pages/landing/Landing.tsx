@@ -26,7 +26,7 @@ function Landing({ isMobile }: LandingProp) {
                 className="font-bold text-center"
               >
                 Hi, I'm
-                <span className="text-royal-blue-100"> Abdul!</span>
+                <span className="text-royal-blue-100"> Sabeer!</span>
               </motion.h2>
               <motion.h5
                 variants={isLoading ? slideDown(8.3) : slideDown(0.3)}
@@ -45,14 +45,14 @@ function Landing({ isMobile }: LandingProp) {
                 className="font-bold text-center"
               >
                 Hi, I'm
-                <span className="text-royal-blue-100"> Abdul!</span>
+                <span className="text-royal-blue-100"> Sabeer!</span>
               </motion.h1>
               <motion.h4
                 variants={isLoading ? slideDown(8.3) : slideDown(0.3)}
                 initial="hidden"
                 animate="show"
               >
-                I'm a Software Engineer.
+                I'm a Software Engineer looking for full time opportunities!
               </motion.h4>
             </>
           )}

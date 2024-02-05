@@ -52,6 +52,6 @@ To explore the portfolio locally, follow these steps:
 
 ## Get in Touch
 
-Feel free to explore the code, provide feedback, and get inspired by this portfolio project. For any questions, reach out to me on [LinkedIn](https://www.linkedin.com/in/abdul-m-miah/).
+Feel free to explore the code, provide feedback, and get inspired by this portfolio project. For any questions, reach out to me on [LinkedIn](https://www.linkedin.com/in/sabeernarula/).
 
 Let's create together! 🌟

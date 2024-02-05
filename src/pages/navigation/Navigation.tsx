@@ -65,8 +65,8 @@ function Navigation({ isDarkMode, toggleDarkMode }: NavigationProp) {
         className="flex items-end text-black dark:text-white cursor-pointer"
         onClick={() => window.scrollTo({ top: 0 })}
       >
-        <span className="text-xl">AbdulMiah</span>
-        <span className="text-sm">.com</span>
+        <span className="text-xl">SabeerNarula.com</span>
+        {/* <span className="text-sm">.com</span> */}
       </Link>
       <div className="block lg:hidden flex items-center">
         <a className="mr-5" href={cvPath} download={true}>
