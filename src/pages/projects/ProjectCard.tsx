@@ -7,7 +7,7 @@ import {
   popOutAnimation,
 } from "../../utils/motionVariants";
 import SkillButton from "../../components/SkillButton";
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
 import { Project, Skill } from "../../utils/types";
 import Tooltip from "@mui/material/Tooltip";
 import { Link } from "react-router-dom";
@@ -50,7 +50,7 @@ function ProjectCard({ isDarkMode, isMobile, project }: ProjectCardProp) {
         </Tooltip>
       </div>
 
-      <Carousel images={project.images} isMobile={isMobile} />
+      {/* <Carousel images={project.images} isMobile={isMobile} /> */}
 
       <div className="mt-5 space-y-4">
         <h4>{project.title}</h4>
