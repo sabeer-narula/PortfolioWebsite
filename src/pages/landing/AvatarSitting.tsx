@@ -5,14 +5,16 @@ import { Suspense } from "react";
 import CanvasLoader from "../../components/canvas/CanvasLoader";
 import { useState } from "react";
 import { ContactShadows } from "@react-three/drei";
+import { isSafari } from '../../utils/browserdetection';
 
 function AvatarSitting() {
   const [lookAtPointer, setLookAtPointer] = useState(false);
+  const cameraFov = isSafari() ? 25 : 20;
 
   return (
     <Canvas
       shadows
-      camera={{ position: [0, 0, 5], fov: 20 }}
+      camera={{ position: [0, 0, 5], fov: cameraFov }}
       onPointerEnter={() => setLookAtPointer(true)}
       onPointerLeave={() => setLookAtPointer(false)}
     >

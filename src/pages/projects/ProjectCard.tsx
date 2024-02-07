@@ -27,17 +27,19 @@ function ProjectCard({ isDarkMode, isMobile, project }: ProjectCardProp) {
       }`}
     >
       <div className="flex justify-between items-center">
-        <Tooltip title="View Source Code on GitHub">
-          <motion.a
-            variants={scaleAnimation([null, 1.3, 1.2], 0.1)}
-            initial="hidden"
-            whileHover="show"
-            href={project.link}
-            target="_blank"
-          >
-            <IconBrandGithub className="hover:fill-white" />
-          </motion.a>
-        </Tooltip>
+        {project.link && (
+          <Tooltip title="View Source Code on GitHub">
+            <motion.a
+              variants={scaleAnimation([null, 1.3, 1.2], 0.1)}
+              initial="hidden"
+              whileHover="show"
+              href={project.link}
+              target="_blank"
+            >
+              <IconBrandGithub className="hover:fill-white" />
+            </motion.a>
+          </Tooltip>
+        )}
         <Tooltip title="Learn More">
           <Link
             to={`/project/${project.id}`}

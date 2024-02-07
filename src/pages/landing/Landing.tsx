@@ -3,12 +3,14 @@ import { IconMouse } from "@tabler/icons-react";
 import AvatarSitting from "./AvatarSitting";
 import Socials from "../../components/Socials";
 import { slideDown } from "../../utils/motionVariants";
+import { isSafari } from "../../utils/browserdetection";
 
 type LandingProp = {
   isMobile: boolean;
 };
 
 function Landing({ isMobile }: LandingProp) {
+  const modelContainerClass = isSafari() ? "w-[45vw] h-[45vh]" : "w-[60vw] h-[60vh]";
   const isLoading =
     sessionStorage.getItem("displayLoader") === "true" ||
     sessionStorage.getItem("displayLoader") === null;
@@ -57,7 +59,7 @@ function Landing({ isMobile }: LandingProp) {
             </>
           )}
 
-          <div className="w-[60vw] h-[60vh] flex justify-center">
+          <div className={modelContainerClass + " flex justify-center"}>
             <AvatarSitting />
           </div>
           <Socials />
