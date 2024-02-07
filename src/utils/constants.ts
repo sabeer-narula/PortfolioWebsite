@@ -455,8 +455,4 @@ export const footerText = `Copyright © 2024 - ${new Date().getFullYear()} | All
 update github links
 update images
 remove 3d models - replace
-fix safari version
-format introduction text
-move hobbies after job history
-make interest cards larger
 */
