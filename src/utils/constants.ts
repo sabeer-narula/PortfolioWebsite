@@ -248,7 +248,7 @@ export const projects: Project[] = [
       "Achieved a false positive rate of less than 0.01%, minimizing the misclassification of legitimate messages as spam.",
     ],
     description:
-      "This project aims to streamline inventory management for small independent sellers by offering a user-friendly mobile application. The app features a modern and intuitive design, facilitating efficient stock level management across various selling platforms like Etsy, Shopify, and Faire. It serves as a centralised hub that seamlessly integrates with popular selling platforms, ensuring a unified and accurate representation of stock levels. Through strategic integrations, the application notifies users of low stock levels and stockouts, providing a reliable single source of truth for inventory management.",
+      "This project showcases the development of an AI/NLP-driven Spam Detection Bot, leveraging Python and Flask. By applying sophisticated algorithms such as Naive Bayes and Logistic Regression, it achieves a remarkable 98.8% accuracy in identifying spam across emails and SMS. The bot features a user-friendly interface for real-time spam evaluation, boasting an impressively low false positive rate, making it a highly reliable tool for spam detection.",
     skills: [
       {
         title: "Python",
@@ -285,7 +285,7 @@ export const projects: Project[] = [
       "Used Python for data processing and graph visualization when presenting findings.",
     ],
     description:
-      "A comprehensive platform designed to empower residents and local councils in addressing flood incidents swiftly and effectively. This user-friendly website facilitates seamless reporting and tracking of flood-related incidents, offering key features such as interactive map functionalities. Residents can effortlessly click on the map to pinpoint incident locations and submit detailed reports, including crucial information like flood type, descriptions, images/videos, contact details, and timestamps. The local council benefit from secure login capabilities, gaining access to a convenient table of report overviews for efficient navigation and focused investigation.",
+      "In collaboration with Dr. Andy Andres, this research project delved into the significant effects of weather patterns on baseball pitches, analyzing a dataset of over 9 million pitches. Through meticulous data analytics using R and Python, key insights were uncovered about how environmental factors influence pitch dynamics. This work highlights the intersection of sports science and data analytics, presenting findings through engaging visualizations.",
     skills: [
       {
         title: "R",
@@ -325,7 +325,7 @@ export const projects: Project[] = [
       "Ran comprehensive regression analyses to discern statistically significant correlations and indicators when compared to a random sample.",
     ],
     description:
-      "Recognising the significance of prayer as one of the fundamental pillars of Islam, this is a practical Islamic prayer application for Muslims. The objective is to provide a more accessible and convenient option with a digitally displayed prayer schedule, allowing users to track their prayers from anywhere. The application incorporates various features, including a map functionality for searching prayer times globally, a compass to determine the prayer direction, a tracker enabling users to mark completed prayers throughout the day, a page offering a list of supplications (Duas) for users to enhance their prayers, and a notification system to alert users when it is time for the next prayer.",
+      "This project involved a comprehensive analysis of Spotify's top 500 songs to decode the attributes contributing to song popularity. Utilizing R/R Studio and the Spotify API, it uncovered correlations between song features and their popularity, employing advanced statistical techniques. The analysis provides valuable insights into the music industry, offering a data-driven understanding of what makes a song successful on the platform.",
     skills: [
       {
         title: "Python",
@@ -340,7 +340,7 @@ export const projects: Project[] = [
         icon: IconBrandSpotify,
       },
     ],
-    link: "https://github.com/AbdulMiah/PrayerPal",
+    link: "",
     hero: "",
     images: prayerpal,
     demo: prayerpalDemo,
@@ -359,7 +359,7 @@ export const projects: Project[] = [
       "As treasurer and an e-board leader, balanced administrative responsibilities with a strong focus on technical education and empowerment, in order to help inspire women in technology.",
     ],
     description:
-      "This project addresses the identified problem of energy site managers, specifically facility energy managers, lacking essential data and tools for making informed decisions on energy cost savings and emission reduction. Key features include automated email updates on energy asset performance, a visual energy flow diagram for intuitive insights, data consolidation for streamlined analysis, and accurate energy cost and consumption forecasting. Users can easily adjust granularity on charts, access historical reports, and switch between sites. Admin functionalities encompass importing energy data, user management, site management, and organisation management.",
+      "Demonstrating a commitment to empowering women in technology, this project involved leading and teaching coding workshops in Python, JavaScript, and using GitHub. By mentoring students across different age groups and facilitating their participation in hackathons, this initiative not only enhanced coding skills but also connected aspiring programmers with career opportunities, showcasing leadership and a dedication to diversity in tech.",
     skills: [
       {
         title: "Python",
@@ -396,7 +396,7 @@ export const projects: Project[] = [
       "Utilized Blender to create shooting animations and design detailed environment assets.",
     ],
     description:
-      "This software is a tailored solution for a non-profit organisation committed to providing affordable homes and comprehensive support services. The platform features an interactive map showcasing Hafod's properties across Wales, alongside a dynamic heatmap offering real-time insights into COVID-19 cases in proximity to both Wales and Hafod properties. Through clear and informative bar graphs, the software presents the vaccination and infection status of residents, while a pie graph highlights popular vaccines among carers and tenants. Accessible to both carers and administrators, the user-friendly interface ensures real-time updates, with administrators having additional capabilities to manage tenant and carer information efficiently through intuitive tables.",
+      "This engaging project resulted in the creation of a first-person shooter game featuring a dynamic zombie survival theme, which won first place in a game development contest. Utilizing Unreal Engine and Blender, it offers an immersive gameplay experience with sophisticated mechanics and AI, highlighting skills in game design, programming, and asset creation.",
     skills: [
       {
         title: "Unreal Engine",
@@ -411,7 +411,7 @@ export const projects: Project[] = [
         icon: IconBrandBlender,
       },
     ],
-    link: "https://github.com/AbdulMiah/Hafod-Data",
+    link: "",
     hero: "",
     images: hafod,
     demo: hafodDemo,
@@ -423,23 +423,20 @@ export const projects: Project[] = [
     projectType: ProjectType.WEB_APP,
     title: "Multi-threaded image processing server",
     summary: [
-      "Software solution for a non-profit organisation focusing on affordable homes and support services.",
-      "Features a map displaying Hafod's properties across Wales.",
-      "Includes a heatmap for real-time COVID-19 cases near Wales and Hafod properties.",
-      "Utilises bar graphs to show vaccination and infection status of residents.",
-      "Incorporates a pie chart indicating popular vaccines among carers and tenants.",
-      "Accessible to both carers and administrators for real-time updates.",
-      "Admins can view and manage tenant and carer information through tables.",
+      "Designed and implemented a multi-threaded server in C, capable of processing image manipulation requests concurrently, emphasizing throughput and efficiency with simultaneous client requests.",
+      "Integrated advanced image processing techniques by manipulating pixel data, including rotation, blurring, sharpening, and edge detection, through custom algorithms developed in imglib.c.",
+      "Employed concurrency and synchronization mechanisms, such as semaphores and mutexes, in server_mimg.c to ensure thread safety and maintain data integrity across multiple parallel threads.",
+      "Implemented a FIFO queue system for request handling with a specified maximum queue size, effectively managing client requests and ensuring orderly processing in a high-load environment.",
     ],
     description:
-      "This software is a tailored solution for a non-profit organisation committed to providing affordable homes and comprehensive support services. The platform features an interactive map showcasing Hafod's properties across Wales, alongside a dynamic heatmap offering real-time insights into COVID-19 cases in proximity to both Wales and Hafod properties. Through clear and informative bar graphs, the software presents the vaccination and infection status of residents, while a pie graph highlights popular vaccines among carers and tenants. Accessible to both carers and administrators, the user-friendly interface ensures real-time updates, with administrators having additional capabilities to manage tenant and carer information efficiently through intuitive tables.",
+      "This technical project focused on designing a multi-threaded server in C for efficient image processing, capable of handling multiple requests concurrently. It showcases advanced programming skills, including the use of concurrency mechanisms and custom algorithms for image manipulation, emphasizing throughput and efficiency in a server environment designed for high-load processing.",
     skills: [
       {
         title: "C",
         icon: IconCircleLetterC,
       },
     ],
-    link: "https://github.com/AbdulMiah/Hafod-Data",
+    link: "https://github.com/sabeer-narula/multi-threaaded-image-processing-server/",
     hero: "",
     images: hafod,
     demo: hafodDemo,
