@@ -3,9 +3,7 @@ import { slideDown } from "../../utils/motionVariants";
 import SectionWrapper from "../../utils/SectionWrapper";
 import { projects } from "../../utils/constants";
 import ProjectCard from "./ProjectCard";
-import IconButton from "../../components/IconButton";
 import { useNavigate } from "react-router-dom";
-import { IconArrowRight } from "@tabler/icons-react";
 import { Project } from "../../utils/types";
 
 type ProjectsProp = {

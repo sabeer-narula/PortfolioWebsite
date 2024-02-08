@@ -18,7 +18,7 @@ type ProjectCardProp = {
   project: Project;
 };
 
-function ProjectCard({ isDarkMode, isMobile, project }: ProjectCardProp) {
+function ProjectCard({ isDarkMode, project }: ProjectCardProp) {
   return (
     <motion.div
       variants={slideDown(project.delay)}
