@@ -4,16 +4,6 @@ import {
   gooff,
   gridsme,
   ooma,
-  instock,
-  instockDemo,
-  wrackreport,
-  wrackreportDemo,
-  prayerpal,
-  prayerpalDemo,
-  e2s,
-  e2sDemo,
-  hafod,
-  hafodDemo,
 } from "../assets";
 import {
   IconPlaneTilt,
@@ -269,8 +259,8 @@ export const projects: Project[] = [
     ],
     link: "https://github.com/sabeer-narula/NLP-Spam-Detection/",
     hero: "",
-    images: instock,
-    demo: instockDemo,
+    // images: "",
+    // demo: "",
     delay: 0.6,
     color: "#2FD4A3",
   },
@@ -310,8 +300,8 @@ export const projects: Project[] = [
     ],
     link: "",
     hero: "",
-    images: wrackreport,
-    demo: wrackreportDemo,
+    // images: "",
+    // demo: "",
     delay: 0.8,
     color: "#093d61",
   },
@@ -342,8 +332,8 @@ export const projects: Project[] = [
     ],
     link: "",
     hero: "",
-    images: prayerpal,
-    demo: prayerpalDemo,
+    // images: "",
+    // demo: "",
     delay: 1,
     color: "#1a4331",
   },
@@ -380,8 +370,8 @@ export const projects: Project[] = [
     ],
     link: "https://github.com/sabeer-narula/GirlsWhoCode/",
     hero: "",
-    images: e2s,
-    demo: e2sDemo,
+    // images: ,
+    // demo: "",
     delay: 1.2,
     color: "#417285",
   },
@@ -413,8 +403,8 @@ export const projects: Project[] = [
     ],
     link: "",
     hero: "",
-    images: hafod,
-    demo: hafodDemo,
+    // images: ,
+    // demo: "",
     delay: 1.4,
     color: "gold",
   },
@@ -438,18 +428,11 @@ export const projects: Project[] = [
     ],
     link: "https://github.com/sabeer-narula/multi-threaaded-image-processing-server/",
     hero: "",
-    images: hafod,
-    demo: hafodDemo,
+    // images: "",
+    // demo: "",
     delay: 1.4,
     color: "gold",
   },
 ];
 
 export const footerText = `Copyright © 2024 - ${new Date().getFullYear()} | All Rights Reserved`;
-
-
-/* TODO:
-update github links
-update images
-remove 3d models - replace
-*/

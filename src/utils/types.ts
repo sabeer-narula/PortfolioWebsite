@@ -37,8 +37,8 @@ export type Project = {
   skills: Skill[];
   link: string;
   hero: string;
-  images: string[];
-  demo: string;
+  // images: string[];
+  // demo: string;
   delay: number;
   color: string;
 };
