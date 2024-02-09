@@ -1,10 +1,8 @@
-import { Project, ProjectType, Skill } from "../../utils/types";
+import { Project, Skill } from "../../utils/types";
 import { Link } from "react-router-dom";
 import SkillButton from "../../components/SkillButton";
 import { IconArrowLeft, IconBrandGithub } from "@tabler/icons-react";
 import IconButton from "../../components/IconButton";
-import MonitorCanvas from "./MonitorCanvas";
-import PhoneCanvas from "./PhoneCanvas";
 import ProjectNavigator from "./ProjectNavigator";
 
 type ProjectDetailsProp = {
