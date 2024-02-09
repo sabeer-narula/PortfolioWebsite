@@ -66,34 +66,9 @@ function ProjectDetails({ isMobile, isDarkMode, project }: ProjectDetailsProp) {
 
         {!isMobile && (
           <div className="flex h-[40vh] items-center justify-center cursor-move">
-            {project.projectType === ProjectType.WEB_APP ? (
-              <MonitorCanvas
-                isDarkMode={isDarkMode}
-                demo={project.demo}
-                sparkleColor={project.color}
-              />
-            ) : (
-              <PhoneCanvas
-                isDarkMode={isDarkMode}
-                demo={project.demo}
-                sparkleColor={project.color}
-              />
-            )}
           </div>
         )}
 
-        <div className="flex flex-col col-span-2 items-center space-y-5">
-          {project.images.map((image, index) => (
-            <img
-              src={image}
-              className={`${
-                isMobile ? "max-h-full" : "h-[700px]"
-              } max-w-full rounded-lg shadow-lg`}
-              alt={`Project Image ${index}`}
-              key={`image-${index}`}
-            />
-          ))}
-        </div>
       </div>
 
       <div className={`${!isMobile && "px-10"} flex flex-col`}>
