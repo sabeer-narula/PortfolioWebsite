@@ -35,7 +35,7 @@ function Projects({ isMobile, isDarkMode }: ProjectsProp) {
 
       <div
         className={`grid ${
-          isMobile ? "grid-cols-2" : "grid-cols-3"
+          isMobile ? "grid-cols-1" : "grid-cols-3"
         } gap-5 text-white`}
       >
         {projects.slice(0, 6).map((project: Project, index: number) => (
