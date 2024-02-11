@@ -55,8 +55,8 @@ function Home({ isMobile, isDarkMode }: HomeProp) {
         }`}
       >
         <Landing isMobile={isMobile} />
-        <Experiences isDarkMode={isDarkMode} isMobile={isMobile} />
         <About isDarkMode={isDarkMode} isMobile={isMobile} />
+        <Experiences isDarkMode={isDarkMode} isMobile={isMobile} />
         <Projects isDarkMode={isDarkMode} isMobile={isMobile} />
         <Contact isDarkMode={isDarkMode} isMobile={isMobile} />
       </div>
