@@ -1,10 +1,10 @@
 # Welcome to Sabeer Narula's Personal Portfolio Website Repository
 
-Hello there! I'm glad you've stumbled upon the GitHub repository for [sabeernarula.com](https://sabeernarula.com), my personal slice of the internet where I showcase my skills, hobbies, job experiences, and various projects I've poured my heart into. This website is not just a portfolio; it's a vivid representation of my professional journey and personal interests, built with a modern tech stack that reflects my proficiency and passion for web development.
+Hello! This is my GitHub repository for [sabeernarula.com](https://sabeernarula.com), my little corner of the internet where I showcase my skills, hobbies, job experiences, and projects I've poured my heart into. This website is not just a portfolio; it's a representation of my professional journey and personal interests, and love for software development.
 
 ## Technologies Used
 
-The website is crafted with a combination of cutting-edge technologies that ensure a robust, scalable, and immersive user experience:
+The website is crafted with a combination of different technologies that ensure a robust, scalable, and immersive user experience:
 
 - **React**: A powerful JavaScript library for building user interfaces, allowing for a dynamic and responsive design.
 - **TypeScript**: Superset of JavaScript that adds static types, enhancing code quality and readability.
@@ -27,7 +27,7 @@ To explore the portfolio locally, follow these steps:
 1. **Clone the repository:**
 
    ```
-   https://github.com/AbdulMiah/Portfolio.git
+   https://github.com/sabeer-narula/PortfolioWebsite.git
    cd Portfolio
    ```
 
