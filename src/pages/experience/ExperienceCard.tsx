@@ -64,19 +64,20 @@ function ExperienceCard({
           whileInView="show"
           className="p-5 list-disc"
         >
-          {experience.summary.map((point: string, index: number) => {
-            const [boldText, restOfText] = point.split(": ");
-            return (
-              <motion.li
-                key={`summary-point-${index}`}
-                variants={popOutAnimation(0.5, 0.2)}
-                initial="hidden"
-                whileInView="show"
-              >
-                <strong>{boldText}:</strong> {restOfText}
-              </motion.li>
-            );
-          })}
+        {experience.summary.map((point: string, index: number) => {
+          const [boldText, restOfText] = point.split(": ");
+          return (
+            <motion.li
+              key={`summary-point-${index}`}
+              variants={popOutAnimation(0.5, 0.2)}
+              initial="hidden"
+              whileInView="show"
+            >
+              <strong>{boldText}</strong>{restOfText ? `: ${restOfText}` : ''}
+            </motion.li>
+          );
+        })}
+
         </motion.ul>
 
         <div className="flex flex-wrap gap-1 justify-center">

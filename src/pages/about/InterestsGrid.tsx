@@ -27,7 +27,7 @@ function InterestsGrid({
           onClick={() => setDescription(interest.description)}
         >
           <interest.icon className="h-8 w-8 mb-3" />
-          <p className="text-lg uppercase">{interest.title}</p>
+          <p className="text-base uppercase">{interest.title}</p>
         </motion.div>
       ))}
     </div>

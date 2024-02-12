@@ -40,7 +40,7 @@ function About({ isDarkMode, isMobile }: AboutProp) {
 
       <motion.div
         variants={slideDown(0.2)}
-        className={`${isMobile ? "" : "col-span-2 col-start-2"} font-bold`}
+        className={`font-bold ${isMobile ? "text-center" : "col-span-2 col-start-2 text-center"}`}
       >
         {isMobile ? (
           <h2>
@@ -55,6 +55,7 @@ function About({ isDarkMode, isMobile }: AboutProp) {
         )}
       </motion.div>
 
+
       <motion.div
         variants={popOutAnimation(0.8, 0.4)}
         className={`${isMobile ? "" : "col-span-2 col-start-2"} text-lg`}
@@ -64,7 +65,7 @@ function About({ isDarkMode, isMobile }: AboutProp) {
 
       <motion.h3
         variants={popOutAnimation(0.8, 0.6)}
-        className={`${isMobile ? "" : "col-span-2 col-start-2"} font-bold`}
+        className={`${isMobile ? "text-center" : "col-span-2 col-start-2"} font-bold`}
       >
         My
         <span className="text-royal-blue-100"> Interests.</span>
