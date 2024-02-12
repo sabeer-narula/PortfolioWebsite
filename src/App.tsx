@@ -11,7 +11,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 import { projects } from "./utils/constants";
 
 function App() {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(true);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
 
   useEffect(() => {
