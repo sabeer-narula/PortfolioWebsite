@@ -74,6 +74,16 @@ export function Avatar(props: AvatarProp) {
     actions[props.animationConfig.name]?.reset().play();
   }, []);
 
+  useEffect(() => {
+    if (group.current) {
+      group.current.traverse((object) => {
+        object.frustumCulled = false;
+      });
+    }
+  
+    actions[props.animationConfig.name]?.reset().play();
+  }, [actions, props.animationConfig.name]);  
+
   return (
     <group {...props} ref={group} dispose={null}>
       <group rotation-x={-Math.PI / 2}>
