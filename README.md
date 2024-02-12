@@ -1,28 +1,24 @@
-# Personal Portfolio
+# Welcome to Sabeer Narula's Personal Portfolio Website Repository
 
-Welcome to my personal portfolio repository! This project showcases my journey, skills, and projects in an immersive and interactive way. The portfolio is built using React with TypeScript, powered by Vite for fast development. It incorporates Three.js for stunning 3D rendering and Tailwind CSS for sleek styling.
+Hello! This is my GitHub repository for [sabeernarula.com](https://sabeernarula.com), my little corner of the internet where I showcase my skills, hobbies, job experiences, and projects I've poured my heart into. This website is not just a portfolio; it's a representation of my professional journey and personal interests, and love for software development.
+
+## Technologies Used
+
+The website is crafted with a combination of different technologies that ensure a robust, scalable, and immersive user experience:
+
+- **React**: A powerful JavaScript library for building user interfaces, allowing for a dynamic and responsive design.
+- **TypeScript**: Superset of JavaScript that adds static types, enhancing code quality and readability.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs without leaving your HTML.
+- **Three.js**: A JavaScript library that makes WebGL simpler, enabling 3D visualizations right in the browser.
+- **Vite**: An incredibly fast front-end build tool, leveraging modern web technologies for a seamless development experience.
+- **CI/CD**: Integrated Continuous Integration and Continuous Deployment with Vercel, automatically deploying the latest changes from the repository to the live website upon every commit.
 
 ## Features
 
-- 🚀 Interactive 3D rendering using Three.js
-- 💅 Stylish UI crafted with Tailwind CSS
-- 🧩 Built with React and TypeScript, accelerated by Vite
-
-## CI/CD Workflow and Automated Deployment
-
-I've implemented a robust CI/CD workflow to ensure seamless updates and deployment. Leveraging Docker 🐳, AWS S3 and CloudFront ☁️, and GitHub Actions 🚀, the process is automated. Here's how it works:
-
-1. **Push to GitHub:** Any code pushed to the main branch triggers the CI/CD pipeline.
-2. **GitHub Actions:** GitHub Actions initiates the workflow.
-3. **Build Application:** The initial job executes the build command to confirm the successful compilation of the application.
-4. **Docker Image Creation:** A Docker image is created to encapsulate the application, which is then pushed to Docker Hub for backup.
-5. **AWS S3 Deployment:** The static web contents are synced to the S3 bucket.
-6. **AWS CloudFront Integration:** The web content stored in the S3 bucket is integrated with AWS CloudFront, a content delivery network (CDN), which enables efficient distribution of content to users worldwide, reducing latency and enhancing user experience.
-7. **Live Website Update:** Updates to the portfolio are swiftly reflected on the live website.
-
-## Keeping Up to Date
-
-Stay informed about the changes in this project by viewing the [Changelog](CHANGELOG.md).
+- **Interactive 3D Elements**: Thanks to Three.js, explore interactive 3D models that add depth and engagement to the portfolio experience.
+- **Responsive Design**: Tailored for all devices using Tailwind CSS, ensuring that my portfolio looks great on any screen.
+- **Dynamic Content**: Leveraging React's component-based architecture for a smooth and dynamic user experience.
+- **Type-Safe Code**: TypeScript ensures that the website's codebase remains error-free and maintainable over time.
 
 ## Build and Run Locally
 
@@ -31,7 +27,7 @@ To explore the portfolio locally, follow these steps:
 1. **Clone the repository:**
 
    ```
-   https://github.com/AbdulMiah/Portfolio.git
+   https://github.com/sabeer-narula/PortfolioWebsite.git
    cd Portfolio
    ```
 
@@ -52,6 +48,4 @@ To explore the portfolio locally, follow these steps:
 
 ## Get in Touch
 
-Feel free to explore the code, provide feedback, and get inspired by this portfolio project. For any questions, reach out to me on [LinkedIn](https://www.linkedin.com/in/sabeernarula/).
-
-Let's create together! 🌟
+Feel free to connect with me, provide feedback, and reach out with any job opportunities! For any questions, you can find me on [LinkedIn](https://www.linkedin.com/in/sabeernarula/).
