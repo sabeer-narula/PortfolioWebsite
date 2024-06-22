@@ -22,7 +22,7 @@ function Landing({ isMobile }: LandingProp) {
           {isMobile ? (
             <>
               <motion.h2
-                variants={isLoading ? slideDown(8.2) : slideDown(0.2)}
+                variants={isLoading ? slideDown(1.2) : slideDown(0.2)}
                 initial="hidden"
                 animate="show"
                 className="font-bold text-center"
@@ -31,7 +31,7 @@ function Landing({ isMobile }: LandingProp) {
                 <span className="text-royal-blue-100"> Sabeer!</span>
               </motion.h2>
               <motion.h5
-                variants={isLoading ? slideDown(8.3) : slideDown(0.3)}
+                variants={isLoading ? slideDown(1.3) : slideDown(0.3)}
                 initial="hidden"
                 animate="show"
               >
@@ -41,7 +41,7 @@ function Landing({ isMobile }: LandingProp) {
           ) : (
             <>
               <motion.h1
-                variants={isLoading ? slideDown(8.2) : slideDown(0.2)}
+                variants={isLoading ? slideDown(1.2) : slideDown(0.2)}
                 initial="hidden"
                 animate="show"
                 className="font-bold text-center"
@@ -50,7 +50,7 @@ function Landing({ isMobile }: LandingProp) {
                 <span className="text-royal-blue-100"> Sabeer!</span>
               </motion.h1>
               <motion.h4
-                variants={isLoading ? slideDown(8.3) : slideDown(0.3)}
+                variants={isLoading ? slideDown(1.3) : slideDown(0.3)}
                 initial="hidden"
                 animate="show"
               >
