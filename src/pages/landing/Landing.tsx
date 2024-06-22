@@ -54,7 +54,7 @@ function Landing({ isMobile }: LandingProp) {
                 initial="hidden"
                 animate="show"
               >
-                I'm a Software Engineer looking for full time opportunities!
+                I'm a Software Engineer looking for full time opportunities.
               </motion.h4>
             </>
           )}

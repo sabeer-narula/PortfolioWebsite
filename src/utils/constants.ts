@@ -71,7 +71,7 @@ export const socialLinks = {
   github: "https://github.com/sabeer-narula",
 };
 
-export const cvPath = "/assets/Sabeer_Narula_Resume.pdf";
+export const cvPath = "/src/assets/Sabeer_Narula_Resume.pdf";
 
 
 export const about: About = {
