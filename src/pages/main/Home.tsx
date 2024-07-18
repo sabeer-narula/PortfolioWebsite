@@ -31,7 +31,7 @@ function Home({ isMobile, isDarkMode }: HomeProp) {
         setIsLoading(false);
         document.body.style.overflow = "auto";
         sessionStorage.setItem("displayLoader", "false");
-      }, 500);
+      }, 1000);
 
       return () => clearInterval(timer);
     } else {
