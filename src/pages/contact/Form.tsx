@@ -123,7 +123,7 @@ function Form({ isDarkMode, isMobile }: FormProp) {
     if (handleValidation()) {
       emailjs
         .sendForm(
-          "service_papclij",
+          "service_nesdird",
           "template_t160e6c",
           e.target as HTMLFormElement,
           "6rNVOR5odZXnX1XrC"
